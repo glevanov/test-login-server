@@ -8,9 +8,7 @@ const login = (username, code) => {
             minutes: 13
         }
     } else {
-        return {
-            cat: 'meow'
-        }
+        return {}
     }
 };
 
